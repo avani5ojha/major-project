@@ -4,12 +4,6 @@ import time
 #import random
 #import webbrowser
 
-# If video URL file does not exist, create one
-if not os.path.isfile("youtube_alarm_videos.txt"):
-	print('Creating "music_files.txt"...')
-	with open("music_files.txt", "w") as alarm_file:
-		alarm_file.write("https://www.youtube.com/watch?v=anM6uIZvx74")
-
 def check_alarm_input(alarm_time):
 	"""Checks to see if the user has entered in a valid alarm time"""
 	if len(alarm_time) == 1: # [Hour] Format
