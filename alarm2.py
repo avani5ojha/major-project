@@ -1,8 +1,8 @@
 import datetime
 import os
 import time
-import random
-import webbrowser
+#import random
+#import webbrowser
 
 # If video URL file does not exist, create one
 if not os.path.isfile("youtube_alarm_videos.txt"):
